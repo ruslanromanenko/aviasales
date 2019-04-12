@@ -44,10 +44,9 @@ class App extends Component {
         return -1; }
       return 0;
     });
-    const result = mapped.map(function(el) {
+    return mapped.map(function(el) {
       return initialTickets[el.index];
     });
-    return result;
   };
 
   getFilteredTickets = () => {

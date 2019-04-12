@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.png";
+import logo from "../../img/logo.png";
 import classes from "../Ticket/Ticket.module.css";
 import ButtonTicket from './ButtonTicket/ButtonTicket';
 
@@ -32,7 +32,7 @@ const Ticket = ({ticket}) => {
           {ticket.arrival_time }
         </span>
         <span className={classes.Name}>
-          {ticket.carrier + ',' + ticket.destination_name}
+          {ticket.destination_name + ',' +  ticket.carrier}
         </span>
         <span className={classes.Date}>
           {ticket.arrival_date}

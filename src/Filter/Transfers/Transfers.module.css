@@ -1,13 +1,5 @@
 .Transfers{
-    /*width: 100%;*/
-    /*box-sizing: border-box;*/
-    /*padding-left: 15px;*/
 }
-
-.Transfers:hover button {
-    /*display: block;*/
-}
-
 .Transfers > span {
     text-transform: uppercase;
     font-size: 13px;
