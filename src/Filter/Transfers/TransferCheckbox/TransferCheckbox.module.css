@@ -1,0 +1,30 @@
+.CheckboxWrapper .Checkbox{
+    padding: 5px 8px;
+}
+.CheckboxWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.CheckboxWrapper:hover{
+    background-color: #f1fcff;
+}
+.CheckboxWrapper:hover .Only{
+    display: block;
+}
+.Only {
+    font-size: 10px;
+    color: #2196f3;
+    display: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-transform: upperCase;
+}
+.Only:focus {
+    border: none;
+    outline: none;
+}

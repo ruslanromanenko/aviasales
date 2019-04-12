@@ -1,0 +1,12 @@
+.Currency{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Currencies{
+    display: flex;
+}

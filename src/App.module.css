@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #f3f7fa;
+}
+.Header{
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Main{
+  max-width: 820px;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}

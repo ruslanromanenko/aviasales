@@ -1,0 +1,70 @@
+
+.Ticket {
+    display: flex;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+}
+
+.LeftBlock{
+    width: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.LeftBlock img{
+    width: 120px;
+    height: 30px;
+    flex-grow: 1;
+}
+
+.button{
+    background-color: orange;
+}
+
+.RightBlock{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    flex-grow: 2;
+}
+
+.Departure{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.Stops{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba(0, 0, 0, .4);
+    font-weight: bold;
+    height: 54px;
+}
+
+.Stops::after{
+    content: '';
+    height: 10px;
+}
+.Destination {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.Time{
+    font-size: 26px;
+}
+.Name{
+    font-size: 12px;
+    font-size: 12px;
+}
+.Date{
+    font-size: 12px;
+}
